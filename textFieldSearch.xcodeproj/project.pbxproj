@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71272CC31B72F30900CC0A01 /* Supplier_list.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 71272CC21B72F30900CC0A01 /* Supplier_list.sqlite */; };
+		71272CCF1B72F36500CC0A01 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 71272CC51B72F36500CC0A01 /* FMDatabase.m */; };
+		71272CD01B72F36500CC0A01 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71272CC71B72F36500CC0A01 /* FMDatabaseAdditions.m */; };
+		71272CD11B72F36500CC0A01 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71272CC91B72F36500CC0A01 /* FMDatabasePool.m */; };
+		71272CD21B72F36500CC0A01 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 71272CCB1B72F36500CC0A01 /* FMDatabaseQueue.m */; };
+		71272CD31B72F36500CC0A01 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71272CCE1B72F36500CC0A01 /* FMResultSet.m */; };
+		71272CD51B72F53700CC0A01 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 71272CD41B72F53700CC0A01 /* libsqlite3.dylib */; };
 		7136A8DC1B69D3B800C5709B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7136A8DB1B69D3B800C5709B /* main.m */; };
 		7136A8DF1B69D3B800C5709B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7136A8DE1B69D3B800C5709B /* AppDelegate.m */; };
 		7136A8E21B69D3B800C5709B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7136A8E11B69D3B800C5709B /* ViewController.m */; };
 		7136A8E51B69D3B900C5709B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7136A8E31B69D3B900C5709B /* Main.storyboard */; };
 		7136A8E71B69D3B900C5709B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7136A8E61B69D3B900C5709B /* Images.xcassets */; };
-		7136A8EA1B69D3B900C5709B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7136A8E81B69D3B900C5709B /* LaunchScreen.xib */; };
 		7136A8F61B69D3B900C5709B /* textFieldSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7136A8F51B69D3B900C5709B /* textFieldSearchTests.m */; };
+		71D2EB4E1B7AF754001871D8 /* taxIdCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D2EB4D1B7AF754001871D8 /* taxIdCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71272CC21B72F30900CC0A01 /* Supplier_list.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Supplier_list.sqlite; sourceTree = "<group>"; };
+		71272CC41B72F36500CC0A01 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		71272CC51B72F36500CC0A01 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		71272CC61B72F36500CC0A01 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		71272CC71B72F36500CC0A01 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		71272CC81B72F36500CC0A01 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		71272CC91B72F36500CC0A01 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		71272CCA1B72F36500CC0A01 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		71272CCB1B72F36500CC0A01 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		71272CCC1B72F36500CC0A01 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		71272CCD1B72F36500CC0A01 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		71272CCE1B72F36500CC0A01 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		71272CD41B72F53700CC0A01 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		7136A8D61B69D3B800C5709B /* textFieldSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textFieldSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7136A8DA1B69D3B800C5709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7136A8DB1B69D3B800C5709B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +56,11 @@
 		7136A8E11B69D3B800C5709B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7136A8E41B69D3B900C5709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7136A8E61B69D3B900C5709B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7136A8E91B69D3B900C5709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7136A8EF1B69D3B900C5709B /* textFieldSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textFieldSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7136A8F41B69D3B900C5709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7136A8F51B69D3B900C5709B /* textFieldSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textFieldSearchTests.m; sourceTree = "<group>"; };
+		71D2EB4C1B7AF754001871D8 /* taxIdCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taxIdCheck.h; sourceTree = "<group>"; };
+		71D2EB4D1B7AF754001871D8 /* taxIdCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taxIdCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71272CD51B72F53700CC0A01 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 		7136A8CD1B69D3B800C5709B = {
 			isa = PBXGroup;
 			children = (
+				71272CD41B72F53700CC0A01 /* libsqlite3.dylib */,
 				7136A8D81B69D3B800C5709B /* textFieldSearch */,
 				7136A8F21B69D3B900C5709B /* textFieldSearchTests */,
 				7136A8D71B69D3B800C5709B /* Products */,
@@ -81,13 +104,16 @@
 		7136A8D81B69D3B800C5709B /* textFieldSearch */ = {
 			isa = PBXGroup;
 			children = (
+				71D2EB541B7C9AD1001871D8 /* FMDB */,
+				71272CC21B72F30900CC0A01 /* Supplier_list.sqlite */,
 				7136A8DD1B69D3B800C5709B /* AppDelegate.h */,
 				7136A8DE1B69D3B800C5709B /* AppDelegate.m */,
 				7136A8E01B69D3B800C5709B /* ViewController.h */,
 				7136A8E11B69D3B800C5709B /* ViewController.m */,
 				7136A8E31B69D3B900C5709B /* Main.storyboard */,
+				71D2EB4C1B7AF754001871D8 /* taxIdCheck.h */,
+				71D2EB4D1B7AF754001871D8 /* taxIdCheck.m */,
 				7136A8E61B69D3B900C5709B /* Images.xcassets */,
-				7136A8E81B69D3B900C5709B /* LaunchScreen.xib */,
 				7136A8D91B69D3B800C5709B /* Supporting Files */,
 			);
 			path = textFieldSearch;
@@ -117,6 +143,24 @@
 				7136A8F41B69D3B900C5709B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71D2EB541B7C9AD1001871D8 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				71272CC41B72F36500CC0A01 /* FMDatabase.h */,
+				71272CC51B72F36500CC0A01 /* FMDatabase.m */,
+				71272CC61B72F36500CC0A01 /* FMDatabaseAdditions.h */,
+				71272CC71B72F36500CC0A01 /* FMDatabaseAdditions.m */,
+				71272CC81B72F36500CC0A01 /* FMDatabasePool.h */,
+				71272CC91B72F36500CC0A01 /* FMDatabasePool.m */,
+				71272CCA1B72F36500CC0A01 /* FMDatabaseQueue.h */,
+				71272CCB1B72F36500CC0A01 /* FMDatabaseQueue.m */,
+				71272CCC1B72F36500CC0A01 /* FMDB.h */,
+				71272CCD1B72F36500CC0A01 /* FMResultSet.h */,
+				71272CCE1B72F36500CC0A01 /* FMResultSet.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7136A8E51B69D3B900C5709B /* Main.storyboard in Resources */,
-				7136A8EA1B69D3B900C5709B /* LaunchScreen.xib in Resources */,
 				7136A8E71B69D3B900C5709B /* Images.xcassets in Resources */,
+				71272CC31B72F30900CC0A01 /* Supplier_list.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7136A8E21B69D3B800C5709B /* ViewController.m in Sources */,
+				71272CD11B72F36500CC0A01 /* FMDatabasePool.m in Sources */,
 				7136A8DF1B69D3B800C5709B /* AppDelegate.m in Sources */,
+				71272CD21B72F36500CC0A01 /* FMDatabaseQueue.m in Sources */,
 				7136A8DC1B69D3B800C5709B /* main.m in Sources */,
+				71D2EB4E1B7AF754001871D8 /* taxIdCheck.m in Sources */,
+				71272CCF1B72F36500CC0A01 /* FMDatabase.m in Sources */,
+				71272CD31B72F36500CC0A01 /* FMResultSet.m in Sources */,
+				71272CD01B72F36500CC0A01 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +300,6 @@
 				7136A8E41B69D3B900C5709B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7136A8E81B69D3B900C5709B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7136A8E91B69D3B900C5709B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = textFieldSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = textFieldSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +460,7 @@
 				7136A8FB1B69D3B900C5709B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7136A8FC1B69D3B900C5709B /* Build configuration list for PBXNativeTarget "textFieldSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				7136A8FE1B69D3B900C5709B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
