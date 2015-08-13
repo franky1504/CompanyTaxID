@@ -1,14 +1,9 @@
 //
 //  taxIdCheck.m
-//  textFieldSearch
 //
 //  Created by Franky Wu on 2015/8/12.
 //  Copyright (c) 2015年 fet. All rights reserved.
 //
-
-#import "taxIdCheck.h"
-
-@implementation taxIdCheck
 //    統一編號
 //A B C D E F G H
 //x x x x x x x x
@@ -17,8 +12,19 @@
 //最後將所有數值加總, 被 10 整除就為正確
 //if G=7, 加上 1 被 10 整除也為正確
 
--(int) taxIdCheck:(int)idNum{
+#import "taxIdCheck.h"
+
+@implementation taxIdCheck
+#define TAXID_MAX_LENGTH 8
+
+-(int) taxIdCheck:(NSString *)idStr{
+    if (idStr.length != TAXID_MAX_LENGTH) {
+        NSLog(@"統一編號 長度錯誤");
+        return 0;
+    }
+    
     int temp;
+    
     h = idNum % 10;
     temp = idNum / 10;
     g = temp % 10;
@@ -54,16 +60,19 @@
     {
         if ((sum+1)%10==0) {
             return 1;
-        }else
+        }else {
+            NSLog(@"統一編號 格式錯誤");
             return 0;
+        }
     }
     else
     {
+        NSLog(@"統一編號 格式錯誤");
         return 0;
     }
 }
 
--(int) add:(int)num {
+-(int) add:(int)num{
     int units;
     int tens;
     int total;
@@ -78,13 +87,12 @@
             [self add:total];
         }
         
-        return units+tens;
+        return total;
     }
     //1位數
     else {
         return num;
     }
-    
 }
 
 @end

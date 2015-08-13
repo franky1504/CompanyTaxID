@@ -19,6 +19,6 @@
     int h;
 }
 
--(int) taxIdCheck:(int)idNum;
+-(int) taxIdCheck:(NSString *)idStr;
 
 @end
